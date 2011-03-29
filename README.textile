@@ -2,3 +2,23 @@ Meme generator plugin for rbot.
 
 Generates a meme image from memegenerator.net using the meme_generator gem and
 optionally puts it on imgur using the imgur2 gem.
+
+Installation:
+
+<pre>
+<code>
+gem install rbot-meme_generator
+rbot_meme_generator
+</code>
+</pre>
+
+Tell rbot:
+
+<pre>
+<code>
+restart
+meme list
+meme imgur <your_imgur_api_key>
+meme swedish 'hi from' rbot'
+</code>
+</pre>

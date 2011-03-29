@@ -24,4 +24,4 @@ meme swedish 'hi from' rbot
 </code>
 </pre>
 
-![](http://i.imgur.com/YGoSl.jpg)
+!http://i.imgur.com/YGoSl.jpg!

@@ -1,0 +1,4 @@
+Meme generator plugin for rbot.
+
+Generates a meme image from memegenerator.net using the meme_generator gem and
+optionally puts it on imgur using the imgur2 gem.

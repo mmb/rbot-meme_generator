@@ -23,3 +23,5 @@ meme imgur <your_imgur_api_key>
 meme swedish 'hi from' rbot
 </code>
 </pre>
+
+![](http://i.imgur.com/YGoSl.jpg)

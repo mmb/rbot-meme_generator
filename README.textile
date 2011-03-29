@@ -17,8 +17,9 @@ Tell rbot:
 <pre>
 <code>
 restart
+meme help
 meme list
 meme imgur <your_imgur_api_key>
-meme swedish 'hi from' rbot'
+meme swedish 'hi from' rbot
 </code>
 </pre>

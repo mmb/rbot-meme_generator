@@ -8,7 +8,7 @@ Installation:
 <pre>
 <code>
 gem install rbot-meme_generator
-rbot_meme_generator
+rbot-meme_generator
 </code>
 </pre>
 

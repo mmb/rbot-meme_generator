@@ -2,4 +2,4 @@
 
 require 'rbot-meme_generator'
 
-RbotMemeGenerator.install(ARGV[0])
+RbotMemeGenerator::install(ARGV[0])

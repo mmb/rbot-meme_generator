@@ -8,7 +8,7 @@
 #
 # License:: MIT
 #
-# Version:: 0.3
+# Version:: 0.4
 #
 # Generates a meme image from memegenerator.net.
 
@@ -27,7 +27,7 @@ class MemeGeneratorPlugin < Plugin
       when 'imgur' then
         'meme imgur key => set imgur API key'
       else
-        'generate a meme image using memegenerator.net: meme (list | generator line1 [additional lines])'
+        'generate a meme image using memegenerator.net: meme (imgur key | list | generator line1 [additional lines])'
     end
   end
 
@@ -66,5 +66,5 @@ end
 
 plugin = MemeGeneratorPlugin.new
 plugin.map 'meme list', :action => 'list'
-plugin.map 'meme :generator *lines', :action => 'gen'
 plugin.map 'meme imgur :key', :action => 'imgur_key'
+plugin.map 'meme :generator *lines', :action => 'gen'

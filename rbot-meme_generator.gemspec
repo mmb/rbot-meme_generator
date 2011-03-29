@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = 'rbot-meme_generator'
-  s.version = '0.3'
+  s.version = '0.4'
   s.summary = 'Meme generator plugin for rbot'
   s.description = s.summary
   s.homepage = 'https://github.com/mmb/rbot-meme_generator'
